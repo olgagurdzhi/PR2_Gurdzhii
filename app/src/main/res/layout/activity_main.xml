@@ -33,6 +33,7 @@
             android:layout_marginEnd="48dp"
             android:layout_marginBottom="141dp"
             android:backgroundTint="#354BC5"
+            android:onClick="buttonDeclare"
             android:text="Начать"
             app:iconTint="#A52E2E" />
     </RelativeLayout>
