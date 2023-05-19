@@ -57,20 +57,20 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/wc1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1"
+            android:text="@string/wc1"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/wc2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="2"
+            android:text="@string/wc2"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -78,11 +78,11 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/wc3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="3"
             android:textAlignment="center"
+            android:text="@string/wc3"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textStyle="bold" />
 
